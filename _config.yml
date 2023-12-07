@@ -5,7 +5,7 @@
 title: blank # the website title (if blank, full name will be used instead)
 first_name: Xufeng
 middle_name:
-last_name: Zhao
+last_name: Zhao / 赵绪锋
 email: xfz.zhao@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
  🕘 3rd year Ph.D student in University of Hamburg; Researching on reinforcement learning (RL), robotic, and large language models (LLMs).
