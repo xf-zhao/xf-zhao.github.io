@@ -1,11 +1,17 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: Matcha agent
+description: Multimodal perception using Large Language Models (LLMs)
+img: https://matcha-agent.github.io/img/matcha_background_small.png
+# img: https://matcha-agent.github.io/img/Matcha_preview.gif
+importance: 2
+redirect: https://matcha-agent.github.io
+category: work
+related_publications: Zhao23ChatEnvironment
+giscus_comments: true
 ---
+
+<!-- <link href="matcha-agent.github.io" rel="import"/> -->
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
@@ -78,21 +84,3 @@ Here's the code for the last row of images above:
 </div>
 ```
 {% endraw %}
-
-```text
-@misc{Zhao23EnhancingZeroShot,
-  title = {Enhancing {{Zero-Shot Chain-of-Thought Reasoning}} in {{Large Language Models}} through {{Logic}}},
-  author = {Zhao, Xufeng and Li, Mengdi and Lu, Wenhao and Weber, Cornelius and Lee, Jae Hee and Chu, Kun and Wermter, Stefan},
-  year = {2023},
-  month = sep,
-  number = {arXiv:2309.13339},
-  eprint = {2309.13339},
-  primaryclass = {cs},
-  publisher = {{arXiv}},
-  doi = {10.48550/arXiv.2309.13339},
-  urldate = {2023-09-26},
-  abstract = {Recent advancements in large language models have showcased their remarkable generalizability across various domains. However, their reasoning abilities still have significant room for improvement, especially when confronted with scenarios requiring multi-step reasoning. Although large language models possess extensive knowledge, their behavior, particularly in terms of reasoning, often fails to effectively utilize this knowledge to establish a coherent thinking paradigm. Generative language models sometimes show hallucinations as their reasoning procedures are unconstrained by logical principles. Aiming to improve the zero-shot chain-of-thought reasoning ability of large language models, we propose Logical Chain-of-Thought (LogiCoT), a neurosymbolic framework that leverages principles from symbolic logic to verify and revise the reasoning processes accordingly. Experimental evaluations conducted on language tasks in diverse domains, including arithmetic, commonsense, symbolic, causal inference, and social problems, demonstrate the efficacy of the enhanced reasoning paradigm by logic.},
-  archiveprefix = {arxiv},
-  arxiv = {2309.13339},
-}
-```

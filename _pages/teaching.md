@@ -1,12 +1,20 @@
 ---
 layout: page
 permalink: /teaching/
-title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+title: Teaching
+# description: 
 nav: true
 nav_order: 5
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+##### Thesis Supervision
 
-Organize your courses by years, topics, or universities, however you like!
+- Task-Agnostic Policy Distillation: Continual Deep Reinforcement Learning with Alternating Self-Supervised Prediction, Kerim Erekmen, *BSc thesis, 2023*, University of Hamburg.
+
+---
+##### Seminar Supervision
+
+- ⌛ LLM Fine-tuning with News Data, *Bio-inspired Artificial Intelligence Seminar 2023*, University of Hamburg
+- Survey on Deployable LLMs, *Neural Networks Seminar 2023*, University of Hamburg
+- Unsupervised Skill Discovery Implementation, *Bio-inspired Artificial Intelligence Seminar 2022*, University of Hamburg
+- Survey on Transformers in Reinforcement Learning, *Bio-inspired Artificial Intelligence Seminar 2022*, University of Hamburg

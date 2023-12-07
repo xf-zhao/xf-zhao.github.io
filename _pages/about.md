@@ -1,26 +1,51 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-
+# subtitle: I'm actively looking for collaboration/visiting oppotunities in **LLMs+Robotics**
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  image: xufeng.jpg
+  image_circular: true # crops the image to make it circular
+  address: >
 
 news: true  # includes a list of news items
 latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+<p id="companionMethods"></p>
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
+- 🕘 3rd year Ph.D student in [University of Hamburg](https://www.inf.uni-hamburg.de/en/inst/ab/wtm.html), 2021-now
+- 👔 AI Engineer [JD.COM](jd.com), 2018-2020.
+- 🎓 M.Sc in Signal Processing, [University of Chinese Academy of Sciences](https://english.ucas.ac.cn/), 2015-2018.
+- 👔 Signal Processing Intern @[Extantfuture startup](https://extantfuture.com/), 2014-2015.
+- 🎓 B.E. in Electronic Information Engineering, [Xidian University](https://www.xidian.edu.cn), 2010-2014.
+
+
+<script>
+new TypeIt("#companionMethods", {
+  speed: 50,
+  waitUntilVisible: true,
+})
+  .type("👋 Hi, ", { delay: 1800 })
+  .type("I'm", { delay: 300 })
+  .move(-1)
+  .delete(1)
+  .type(" a")
+  .move(null, { to: "END" })
+  .type(" activly")
+  .pause(300)
+  .move(-2)
+  .type("e")
+  .move(null, { to: "END" })
+  .type(" seeking for collaborations in ")
+  .pause(300)
+  .type("<b> LLMs + Robotics. </b>")
+
+  .go();
+</script>
