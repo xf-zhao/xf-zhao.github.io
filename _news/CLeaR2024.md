@@ -5,4 +5,4 @@ inline: true
 related_posts: true
 ---
 
-[[#Publications](/publications)] / Exciting News: our paper [Causal State Distillation for Explainable Reinforcement Learning](https://arxiv.org/abs/2401.00104) has been accepted for oral presentation at CLeaR 2024 in Los Angeles, California, USA, scheduled for April 2024.
+[[#Publications](/publications)] / Exciting News: our paper [Causal State Distillation for Explainable Reinforcement Learning](https://arxiv.org/abs/2401.00104) has been accepted for **oral presentation** at CLeaR 2024 in Los Angeles, California, USA, scheduled for April 2024.
