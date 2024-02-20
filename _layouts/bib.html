@@ -121,6 +121,9 @@
         {%- else -%}
           {%- capture entrytype -%}{%- endcapture -%}
         {%- endif -%}
+        {%- if entry.scheduled -%}
+          <p style="color:orange;display:inline">[Scheduled to Appear]</p>
+        {%- endif -%}
         {%- if entry.month -%}
           {%- capture entrymonth -%}{{ " " }}{{ entry.month | capitalize }}{%- endcapture -%}
         {%- endif -%}
@@ -138,6 +141,9 @@
 
           <!-- Links/Buttons -->
           <div class="links">
+          {%- if entry.official_name %}
+            <a href="{{ entry.official_link }}" class="btn btn-sm z-depth-0" role="button"><b>#{{entry.official_name}}</b></a>
+          {%- endif %}
           {%- if entry.abstract %}
             <a class="abstract btn btn-sm z-depth-0" role="button">Abstract &nbsp;<img src="/assets/img/arrowdown-icon.png" height="4"></a>
           {%- endif %}
@@ -187,6 +193,7 @@
           {%- if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
           {%- endif %}
+
           </div>
           {% if site.enable_publication_badges %}
           {% assign entry_has_altmetric_badge = entry.altmetric or entry.doi or  entry.eprint or entry.pmid or entry.isbn %}
