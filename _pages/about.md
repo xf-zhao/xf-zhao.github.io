@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-# subtitle: I'm actively looking for collaboration/visiting oppotunities in **LLMs+Robotics**
+# subtitle: Seeking Opportunities in LLMs, Robotics, and RL: Ready to Dive into Internships, Jobs, and Visiting Roles
 profile:
   align: right
   image: xufeng.jpg
@@ -20,32 +20,20 @@ social: true  # includes social icons at the bottom of the page
 <p id="companionMethods"></p>
 
 
-- 🕘 3rd year Ph.D student in [University of Hamburg](https://www.inf.uni-hamburg.de/en/inst/ab/wtm.html), 2021-now
+- 🕘 Last year Ph.D student in [University of Hamburg](https://www.inf.uni-hamburg.de/en/inst/ab/wtm.html), 2021-now
 - 👔 AI Engineer [JD.COM](jd.com), 2018-2020.
 - 🎓 M.Sc in Signal Processing, [University of Chinese Academy of Sciences](https://english.ucas.ac.cn/), 2015-2018.
 - 👔 Signal Processing Intern @[Extantfuture startup](https://extantfuture.com/), 2014-2015.
 - 🎓 B.E. in Electronic Information Engineering, [Xidian University](https://www.xidian.edu.cn), 2010-2014.
 
+  
 
 <script>
 new TypeIt("#companionMethods", {
   speed: 50,
   waitUntilVisible: true,
 })
-  .type("👋 Hi, ", { delay: 1800 })
-  .type("I'm", { delay: 300 })
-  .move(-1)
-  .delete(1)
-  .type(" a")
-  .move(null, { to: "END" })
-  .type(" activly")
-  .pause(300)
-  .move(-2)
-  .type("e")
-  .move(null, { to: "END" })
-  .type(" seeking for collaborations in ")
-  .pause(300)
-  .type("<b> LLMs + Robotics. </b>")
-
+  .type("👋 ", { delay: 1800 })
+  .type("Ready to dive into <b>intern/job/opportunities</b> in LLMs, Robotics, and RL.", { delay: 300 })
   .go();
 </script>
