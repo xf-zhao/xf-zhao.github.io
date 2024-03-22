@@ -7,6 +7,8 @@ nav: true
 nav_order: 5
 ---
 
+**Open to collaborations and supervision.**
+
 ##### Thesis Supervision
 
 - Task-Agnostic Policy Distillation: Continual Deep Reinforcement Learning with Alternating Self-Supervised Prediction, Kerim Erekmen, *BSc thesis, 2023*, University of Hamburg.
