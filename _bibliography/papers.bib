@@ -3,6 +3,27 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{Zhao24AgenticSkill,
+  title = {Agentic {{Skill Discovery}}},
+  author = {Zhao, Xufeng and Weber, Cornelius and Wermter, Stefan},
+  year = {2024},
+  month = may,
+  arxiv = {2405.15019},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  url = {http://arxiv.org/abs/2405.15019},
+  urldate = {2024-05-27},
+  abstract = {Language-conditioned robotic skills make it possible to apply the high-level reasoning of Large Language Models (LLMs) to low-level robotic control. A remaining challenge is to acquire a diverse set of fundamental skills. Existing approaches either manually decompose a complex task into atomic robotic actions in a top-down fashion, or bootstrap as many combinations as possible in a bottom-up fashion to cover a wider range of task possibilities. These decompositions or combinations, however, require an initial skill library. For example, a "grasping" capability can never emerge from a skill library containing only diverse "pushing" skills. Existing skill discovery techniques with reinforcement learning acquire skills by an exhaustive exploration but often yield non-meaningful behaviors. In this study, we introduce a novel framework for skill discovery that is entirely driven by LLMs. The framework begins with an LLM generating task proposals based on the provided scene description and the robot's configurations, aiming to incrementally acquire new skills upon task completion. For each proposed task, a series of reinforcement learning processes are initiated, utilizing reward and success determination functions sampled by the LLM to develop the corresponding policy. The reliability and trustworthiness of learned behaviors are further ensured by an independent vision-language model. We show that starting with zero skill, the ASD skill library emerges and expands to more and more meaningful and reliable skills, enabling the robot to efficiently further propose and complete advanced tasks. The project page can be found at: <a href="https://agentic-skill-discovery.github.io">https://agentic-skill-discovery.github.io</a>.},
+  archiveprefix = {arxiv},
+  journal = {arXiv preprint},
+  bibtex_show = {True},
+  preview = {ASD-preview.png},
+  selected = {true},
+  featured = {true},
+  website = {https://agentic-skill-discovery.github.io/},
+}
+
+
 @article{Chu24LargeLanguage,
   title = {Large Language Models for Orchestrating Bimanual Robots},
   author = {Chu, Kun and Zhao, Xufeng and Weber, Cornelius and Li, Mengdi and Lu, Wenhao and Wermter, Stefan},
@@ -13,6 +34,7 @@
   bibtex_show = {True},
   preview = {labor_preview.png},
   website = {https://labor-agent.github.io/},
+  url = {https://labor-agent.github.io/},
   primaryclass = {cs.RO},
   archiveprefix = {arxiv},
   pages = {2404.02018},
@@ -31,7 +53,6 @@
   abstract = {Recent advancements in large language models have showcased their remarkable generalizability across various domains. However, their reasoning abilities still have significant room for improvement, especially when confronted with scenarios requiring multi-step reasoning. Although large language models possess extensive knowledge, their reasoning often fails to effectively utilize this knowledge to establish a coherent thinking paradigm. These models sometimes show hallucinations as their reasoning procedures are unconstrained by logical principles. Aiming at improving the zero-shot chain-of-thought reasoning ability of large language models, we propose LoT (Logical Thoughts), a self-improvement prompting framework that leverages principles rooted in symbolic logic, particularly Reductio ad Absurdum, to systematically verify and rectify the reasoning processes step by step. Experimental evaluations conducted on language tasks in diverse domains, including arithmetic, commonsense, symbolic, causal inference, and social problems, demonstrate the efficacy of enhanced reasoning by logic.},
   keywords = {Large Language Models, Chain-of-Thought, Reasoning, Logic, Reductio ad Absurdum},
   selected = {true},
-  scheduled = {true},
   preview = {LoT prompting.gif},
   code = {https://github.com/xf-zhao/LoT},
   slides = {LoT-COLING2024-Slides.pdf},
@@ -39,6 +60,7 @@
   official_name = {COLING 2024 (<p style="color:red;display:inline"><b>oral</b></p>)},
   official_link = {https://lrec-coling-2024.org},
   featured = {true},
+  url = {https://arxiv.org/abs/2309.13339},
 }
 
 @inproceedings{Lu23CausalState,
@@ -50,6 +72,7 @@
   month = April,
   bibtex_show = {true},
   arxiv = {2401.00104},
+  url = {https://arxiv.org/abs/2401.00104},
   abstract = {Reinforcement learning (RL) is a powerful technique for training intelligent agents, but understanding why these agents make specific decisions can be quite challenging. This lack of transparency in RL models has been a long-standing problem, making it difficult for users to grasp the reasons behind an agent's behaviour. Various approaches have been explored to address this problem, with one promising avenue being reward decomposition (RD). RD is appealing as it sidesteps some of the concerns associated with other methods that attempt to rationalize an agent's behaviour in a post-hoc manner. RD works by exposing various facets of the rewards that contribute to the agent's objectives during training. However, RD alone has limitations as it primarily offers insights based on sub-rewards and does not delve into the intricate cause-and-effect relationships that occur within an RL agent's neural model. In this paper, we present an extension of RD that goes beyond sub-rewards to provide more informative explanations. Our approach is centred on a causal learning framework that leverages information-theoretic measures for explanation objectives that encourage three crucial properties of causal factors: causal sufficiency, sparseness, and orthogonality. These properties help us distill the cause-and-effect relationships between the agent's states and actions or rewards, allowing for a deeper understanding of its decision-making processes. Our framework is designed to generate local explanations and can be applied to a wide range of RL tasks with multiple reward channels. Through a series of experiments, we demonstrate that our approach offers more meaningful and insightful explanations for the agent's action selections.},
   keywords = {Computer Science - Artificial Intelligence,Computer Science - Machine Learning,Statistics - Methodology},
   preview= {RD_flow_overview.jpg},
