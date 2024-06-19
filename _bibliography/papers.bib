@@ -11,7 +11,7 @@
   arxiv = {2405.15019},
   primaryclass = {cs},
   publisher = {arXiv},
-  url = {http://arxiv.org/abs/2405.15019},
+  url = {https://agentic-skill-discovery.github.io/},
   urldate = {2024-05-27},
   abstract = {Language-conditioned robotic skills make it possible to apply the high-level reasoning of Large Language Models (LLMs) to low-level robotic control. A remaining challenge is to acquire a diverse set of fundamental skills. Existing approaches either manually decompose a complex task into atomic robotic actions in a top-down fashion, or bootstrap as many combinations as possible in a bottom-up fashion to cover a wider range of task possibilities. These decompositions or combinations, however, require an initial skill library. For example, a "grasping" capability can never emerge from a skill library containing only diverse "pushing" skills. Existing skill discovery techniques with reinforcement learning acquire skills by an exhaustive exploration but often yield non-meaningful behaviors. In this study, we introduce a novel framework for skill discovery that is entirely driven by LLMs. The framework begins with an LLM generating task proposals based on the provided scene description and the robot's configurations, aiming to incrementally acquire new skills upon task completion. For each proposed task, a series of reinforcement learning processes are initiated, utilizing reward and success determination functions sampled by the LLM to develop the corresponding policy. The reliability and trustworthiness of learned behaviors are further ensured by an independent vision-language model. We show that starting with zero skill, the ASD skill library emerges and expands to more and more meaningful and reliable skills, enabling the robot to efficiently further propose and complete advanced tasks. The project page can be found at: <a href="https://agentic-skill-discovery.github.io">https://agentic-skill-discovery.github.io</a>.},
   archiveprefix = {arxiv},
@@ -23,6 +23,26 @@
   website = {https://agentic-skill-discovery.github.io/},
 }
 
+@inproceedings{Sun24DetailsMake,
+  title = {Details {{Make}} a {{Difference}}: {{Object State-Sensitive Neurorobotic Task Planning}}},
+  shorttitle = {Details {{Make}} a {{Difference}}},
+  author = {Sun, Xiaowen and Zhao, Xufeng and Lee, Jae Hee and Lu, Wenhao and Kerzel, Matthias and Wermter, Stefan},
+  year = {2024},
+  month = sep,
+  arxiv = {2406.09988},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2406.09988},
+  url = {http://arxiv.org/abs/2406.09988},
+  abstract = {The state of an object reflects its current status or condition and is important for a robot's task planning and manipulation. However, detecting an object's state and generating a state-sensitive plan for robots is challenging. Recently, pre-trained Large Language Models (LLMs) and Vision-Language Models (VLMs) have shown impressive capabilities in generating plans. However, to the best of our knowledge, there is hardly any investigation on whether LLMs or VLMs can also generate object state-sensitive plans. To study this, we introduce an Object State-Sensitive Agent (OSSA), a task-planning agent empowered by pre-trained neural networks. We propose two methods for OSSA: (i) a modular model consisting of a pre-trained vision processing module (dense captioning model, DCM) and a natural language processing model (LLM), and (ii) a monolithic model consisting only of a VLM. To quantitatively evaluate the performances of the two methods, we use tabletop scenarios where the task is to clear the table. We contribute a multimodal benchmark dataset that takes object states into consideration. Our results show that both methods can be used for object state-sensitive tasks, but the monolithic approach outperforms the modular approach. The code for OSSA is available at https://github.com/Xiao-wen-Sun/OSSA},
+  booktitle = {The 33rd International Conference on Artificial Neural Networks (ICANN 2024)},
+  bibtex_show = {True},
+  preview = {ossa_preview.png},
+  official_name = {ICANN 2024},
+  official_link = {https://e-nns.org/icann2024/},
+  scheduled = {true},
+  place = {Switzerland},
+}
 
 @article{Chu24LargeLanguage,
   title = {Large Language Models for Orchestrating Bimanual Robots},
@@ -40,7 +60,6 @@
   pages = {2404.02018},
   abstract = {Although there has been rapid progress in endowing robots with the ability to solve complex manipulation tasks, generating control policies for bimanual robots to solve tasks involving two hands is still challenging because of the difficulties in effective temporal and spatial coordination. With emergent abilities in terms of step-by-step reasoning and in-context learning, Large Language Models (LLMs) have taken control of a variety of robotic tasks. However, the nature of language communication via a single sequence of discrete symbols makes LLM-based coordination in continuous space a particular challenge for bimanual tasks. To tackle this challenge for the first time by an LLM, we present LAnguage-model-based Bimanual ORchestration (LABOR), an agent utilizing an LLM to analyze task configurations and devise coordination control policies for addressing long-horizon bimanual tasks. In the simulated environment, the LABOR agent is evaluated through several everyday tasks on the NICOL humanoid robot. Reported success rates indicate that overall coordination efficiency is close to optimal performance, while the analysis of failure causes, classified into spatial and temporal coordination and skill selection, shows that these vary over tasks. The project website can be found at https://labor-agent.github.io/.},
 }
-
 
 @inproceedings{Zhao23EnhancingZeroShot,
   title = {Enhancing {{Zero-Shot Chain-of-Thought Reasoning}} in {{Large Language Models}} through {{Logic}}},
