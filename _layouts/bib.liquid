@@ -1,6 +1,6 @@
 ---
 ---
-<div class="row">
+<div class="row" {% if entry.featured %}style="background-image: linear-gradient(to right, rgba(255,0,0,0.005), rgba(255,0,0,.05));"{% else %}{% endif %}>
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
       {%- if entry.abbr -%}
