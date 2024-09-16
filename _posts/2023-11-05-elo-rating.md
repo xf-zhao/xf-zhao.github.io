@@ -7,7 +7,7 @@ tags:
     - probability
     - large language models
 giscus_comments: true
-categories: work
+categories:
 related_posts: true
 toc:
   sidebar: left
@@ -115,7 +115,7 @@ Explanation of the usage in alignment tuning LLMs.
 
 [^4]: The logistic function is modeled as $$p(x) = \frac{1}{1 + e^{\frac{x-\mu}{s}}}$$, where $$\mu$$ and $$s$$ controls the curve shifting and steep respectively (see [wiki](https://en.wikipedia.org/wiki/Logistic_regression) for more). And correspondingly, logistic regression is actually a classification model that tries to learn parameters (normally in the format of $$p(x) = \frac{1}{1+e^{\mathbf{w}^\intercal x}}$$) of the logistic function model to correctly (in probability) classify the input into two different categories.
 
-[^5]: [https://en.wikipedia.org/wiki/Logit](https://en.wikipedia.org/wiki/Logit)
+[^5]: see [https://en.wikipedia.org/wiki/Logit](https://en.wikipedia.org/wiki/Logit)
 
 [^6]: [The Mathematics of Elo Ratings: Calculating the relative skill of players in zero-sum games](https://www.cantorsparadise.com/the-mathematics-of-elo-ratings-b6bfc9ca1dba)
 
