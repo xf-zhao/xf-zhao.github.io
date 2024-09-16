@@ -1,13 +1,13 @@
 ---
 layout: page
 title: More
-nav: false
-nav_order: 6
+nav: true
+nav_order: 8
 dropdown: true
 children: 
-    - title: publications
-      permalink: /publications/
+    - title: repositories
+      permalink: /repositories/
     - title: divider
-    - title: projects
-      permalink: /projects/
+    - title: contact
+      permalink: /contact/
 ---
