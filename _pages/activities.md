@@ -13,6 +13,7 @@ I am willing to contribute to the research society by peer-reviewing more relate
 ### Attendance
 
 ###### Conference Presentation
+- ICRA@40 poster presentation.
 - COLING 2024 oral presentation, see [slides](/assets/pdf/LoT-COLING2024-Slides.pdf).
 - IROS 2023 oral & poster presentation, see [slides](https://matcha-agent.github.io/img/matcha-agent-slides.pdf).
 - ICML 2023 poster presentation, see also [here](/news/ICML2023/).
