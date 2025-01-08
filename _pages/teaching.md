@@ -9,6 +9,10 @@ nav_order: 3
 
 **Open to collaborations and supervision.**
 
+##### Lecture
+
+- Co-Lecture on “Large Language Models”, University of Hamburg (2024), with [Jae Hee Lee](https://jaeheelee.gitlab.io/). see [[Slides]](https://jaeheelee.gitlab.io/llms_2024.pdf).
+
 ##### Thesis Supervision
 
 - Task-Agnostic Policy Distillation: Continual Deep Reinforcement Learning with Alternating Self-Supervised Prediction, Kerim Erekmen, *BSc thesis, 2023*, University of Hamburg.
