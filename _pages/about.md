@@ -5,8 +5,8 @@ permalink: /
 # subtitle: 
 profile:
   align: right
-  # image: xufeng_rectangle.png
-  image: xufeng_square.png
+  image: xufeng.png
+  # image: xufeng_square.png
   image_circular: true # crops the image to make it circular
   more_info: >
     with a focus on developing advanced AI for both digital and embodied agent autonomy
