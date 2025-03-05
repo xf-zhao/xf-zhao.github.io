@@ -3,9 +3,8 @@ layout: post
 title: "Elo Rating, Logistic Distribution, and Logistic Regression"
 description: "A probabilistic explanation of Elo rating approach"
 tags:
-    - rating
-    - probability
-    - large language models
+    - math
+    - LLMs
 giscus_comments: true
 categories:
 related_posts: true

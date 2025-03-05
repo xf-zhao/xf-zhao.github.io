@@ -9,7 +9,7 @@ nav_order: 2
 <!-- _pages/publications.md -->
 <div class="publications">
 
-<em>categorized (preprint, conf., jour., thesis) / <b>*</b>equal contributions / <b><p style="background-image: linear-gradient(to right, rgba(255,0,0,0.01), rgba(255,0,0,.21));display:inline">featured works</p></b></em>
+<em>categorized (preprint, conf., jour., thesis) / <b>*</b>equal contributions / <b><p style="background-image: linear-gradient(to right, rgba(0, 179, 255, 0.01), rgba(0, 204, 255, 0.34));display:inline">featured works</p></b></em>
 
 {% bibliography --template bib --group_by type,year --group_order ascending,descending %}
 
