@@ -4,20 +4,18 @@
 
 :root {
   --global-bg-color: #{$white-color};
-  --global-code-bg-color: rgba(0, 204, 255, 0.074); //#{$code-bg-color-light};
+  --global-code-bg-color: rgba(0, 204, 255, 0.074); 
   --global-text-color: #{$black-color};
   --global-text-color-light: #{$grey-color};
-  // --global-theme-color: #{$purple-color};
-  // --global-hover-color: #{$purple-color};
-  --global-theme-color: rgb(65, 125, 214); // #008DDA;
+  --global-theme-color: rgb(65, 125, 214);
   --global-hover-color: rgb(22, 148, 245); 
   --global-hover-text-color: #{$white-color};
   --global-footer-bg-color: #{$grey-color-dark};
   --global-footer-text-color: #{$grey-color-light};
   --global-footer-link-color: #{$white-color};
   --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgb(186, 225, 239);
-  --global-card-bg-color: rgb(0, 191, 255);
+  --global-divider-color: rgb(207, 222, 246);
+  --global-card-bg-color: rgb(245, 252, 255);
   --global-highlight-color: #{$red-color-dark};
   --global-back-to-top-bg-color: rgba(#{red($black-color)}, #{green($black-color)}, #{blue($black-color)}, 0.4);
   --global-back-to-top-text-color: #{$white-color};
