@@ -3,6 +3,28 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{Chu25LLM+MAPBimanual,
+  title = {{{LLM}}+{{MAP}}: Bimanual Robot Task Planning Using Large Language Models and Planning Domain Definition Language},
+  shorttitle = {Llm+map},
+  author = {Chu, Kun and Zhao, Xufeng and Weber, Cornelius and Wermter, Stefan},
+  year = {2025},
+  month = mar,
+  number = {arXiv:2503.17309},
+  eprint = {2503.17309},
+  primaryclass = {cs},
+  publisher = {arXiv},
+  doi = {10.48550/arXiv.2503.17309},
+  url = {http://arxiv.org/abs/2503.17309},
+  urldate = {2025-03-25},
+  abstract = {Bimanual robotic manipulation provides significant versatility, but also presents an inherent challenge due to the complexity involved in the spatial and temporal coordination between two hands. Existing works predominantly focus on attaining human-level manipulation skills for robotic hands, yet little attention has been paid to task planning on long-horizon timescales. With their outstanding in-context learning and zero-shot generation abilities, Large Language Models (LLMs) have been applied and grounded in diverse robotic embodiments to facilitate task planning. However, LLMs still suffer from errors in long-horizon reasoning and from hallucinations in complex robotic tasks, lacking a guarantee of logical correctness when generating the plan. Previous works, such as LLM+P, extended LLMs with symbolic planners. However, none have been successfully applied to bimanual robots. New challenges inevitably arise in bimanual manipulation, necessitating not only effective task decomposition but also efficient task allocation. To address these challenges, this paper introduces LLM+MAP, a bimanual planning framework that integrates LLM reasoning and multi-agent planning, automating effective and efficient bimanual task planning. We conduct simulated experiments on various long-horizon manipulation tasks of differing complexity. Our method is built using GPT-4o as the backend, and we compare its performance against plans generated directly by LLMs, including GPT-4o, V3 and also recent strong reasoning models o1 and R1. By analyzing metrics such as planning time, success rate, group debits, and planning-step reduction rate, we demonstrate the superior performance of LLM+MAP, while also providing insights into robotic reasoning. Code is available at https://github.com/Kchu/LLM-MAP.},
+  archiveprefix = {arXiv},
+  langid = {english},
+  arxiv = {2503.17309},
+  journaltitle = {},
+  abbr = {preprint},
+  bibtex_show = {True},
+}
+
 @preprint{Zhang24REALResponse,
   title = {{{REAL}}: {{Response Embedding-based Alignment}} for {{LLMs}}},
   shorttitle = {{{REAL}}},
