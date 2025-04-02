@@ -18,12 +18,12 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-[Ph.D. student in University of Hamburg](https://www.inf.uni-hamburg.de/en/inst/ab/wtm/people/zhao.html)
+[Ph.D. student in University of Hamburg (final year)](https://www.inf.uni-hamburg.de/en/inst/ab/wtm/people/zhao.html)
+
+[[`Email`](mailto:xfz.zhao@gmail.com)] / [[`Google Scholar`](https://scholar.google.com/citations?hl=en&user=sLwQ22MAAAAJ&view_op=list_works&sortby=pubdate)] / [[`Github`](https://github.com/xf-zhao)]
 
 
-
-
-My interests are in a `"research triangle"`:
+My interests are in a "research triangle":
 <img style="float:right;" src="/assets/img/research_triangle.png" width="350" height="auto">
 
 - **Large language models** have high capacities to reason universally
