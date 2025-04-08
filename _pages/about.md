@@ -18,7 +18,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-[Ph.D. student in University of Hamburg (final year)](https://www.inf.uni-hamburg.de/en/inst/ab/wtm/people/zhao.html)
+[Wrapping up my Ph.D. at the University of Hamburg](https://www.inf.uni-hamburg.de/en/inst/ab/wtm/people/zhao.html)
 
 [[`Email`](mailto:xfz.zhao@gmail.com)] / [[`Google Scholar`](https://scholar.google.com/citations?hl=en&user=sLwQ22MAAAAJ&view_op=list_works&sortby=pubdate)] / [[`Github`](https://github.com/xf-zhao)]
 
