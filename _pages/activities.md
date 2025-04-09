@@ -33,11 +33,13 @@ I am willing to contribute to the research society by peer-reviewing more relate
 
 | Time | Name                   | Type       | Topic | Role     | Num |
 |------+------------------------+------------+-------+----------+-----|
+| 2025 | Ubiquitous Robots (UR)| conference | LLM+Robotics  | reviewer |  1 |
+| 2025 | RAS                   | journal | LLM+Robotics   | reviewer |  1 |
 | 2025 | RA-L                   | journal | LLM+Robotics   | reviewer |  1 |
 |------+------------------------+------------+-------+----------+-----|
 | 2024 | ICLR 2025            | conference | LLM+Robotics   | reviewer |   3 |
 | 2024 | ICRA 2025            | conference | Robotics   | reviewer |   2 |
-| 2024 | EMNLP 2024 Workshop | workshop | LLM   | reviewer |   1 |
+| 2024 | EMNLP 2024 | workshop | LLM   | reviewer |   1 |
 | 2024 | Humanoids 2024            | conference | Robotics   | reviewer |   1 |
 | 2024 | IROS 2024            | conference | Robotics   | reviewer |   2 |
 | 2024 | COLING 2024            | conference | LLM   | reviewer |   1 |
