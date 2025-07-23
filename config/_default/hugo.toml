@@ -84,8 +84,15 @@ target = '$1'
   publication_type = "publication_types"
   author = "authors"
 
-[markup.goldmark.renderer]
-  unsafe = true
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.goldmark.parser]
+    attribute = true
+
+  [template]
+    partialsTimeout = 60  # increase from default 30s
+
 
 # Caches
 [caches]
