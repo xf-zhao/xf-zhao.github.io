@@ -15,6 +15,10 @@ permissions:
   pages: write
   id-token: write
 
+env:
+  HUGO_ENV: production
+  GO111MODULE: "on"
+
 # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
 # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
 concurrency:
@@ -48,6 +52,12 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+            # Hugo module setup
+      - name: Setup Hugo Modules
+        run: |
+          hugo mod tidy
+          hugo mod get
+
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
