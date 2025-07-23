@@ -41,6 +41,10 @@ subtitle = "See my [Google Scholar](https://scholar.google.com/citations?user=sL
     name = "Robotics"
     tag = "Robotics"
 
+  [[content.filter_button]]
+    name = "XAI"
+    tag = "XAI"
+
 [design]
   # Choose how many columns the section has. Valid values: 1 or 2.
   columns = "2"

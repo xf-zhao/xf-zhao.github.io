@@ -28,9 +28,10 @@ bio: My research interests include AI for robotics, large language models, and e
 display_education: true
 
 interests:
-- Artificial Intelligence
-- Robotics / Embodied Agents
-- Reinforcement Learning / Machine Learning
+- Agentic Intelligence
+- Robotics / Embodied AI
+- Reinforcement Learning
+- Machine Learning
 
 education:
   courses:
