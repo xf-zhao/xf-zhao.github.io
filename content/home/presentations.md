@@ -4,15 +4,15 @@
 
 widget = "pages"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
-weight = 70  # Order that this section will appear.
+active = true  # Activate this widget? true/false
+weight = 40  # Order that this section will appear.
 
-title = "Recent & Upcoming Talks"
-subtitle = "MY FANS DON'T FEEL LIKE I HOLD ANYTHING BACK FROM THEM"
+title = "Presentations"
+subtitle = "Activities & Talks"
 
 [content]
   # Page type to display. E.g. post, talk, or publication.
-  page_type = "talk"
+  page_type = "presentation"
   
   # Choose how much pages you would like to display (0 = all pages)
   count = 5
@@ -38,7 +38,7 @@ subtitle = "MY FANS DON'T FEEL LIKE I HOLD ANYTHING BACK FROM THEM"
   #   2 = Compact
   #   3 = Card
   #   4 = Citation (publication only)
-  view = 3
+  view = 2
   
 [design.background]
   # Apply a background color, gradient, or image.

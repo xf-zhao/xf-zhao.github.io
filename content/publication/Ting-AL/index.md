@@ -1,11 +1,11 @@
 ---
 title: Density Weighted Diversity based Query Strategy for Active Learning
 authors: 
-- Kun Chu
+- Tingting Wang
 - Xufeng Zhao
-- Cornelius Weber
-- Mengdi Li
-- Stefan Wermter
+- Qiujian Lv
+- Bo Hu
+- Degang Sun
 journal: 
 - CSCWD 2021
 summary: DWDS is a density-weighted diversity strategy for active learning in deep learning. It selects informative and representative samples using geometric insights and a beam search for efficient query selection. DWDS consistently outperforms existing methods under limited labeling budgets.

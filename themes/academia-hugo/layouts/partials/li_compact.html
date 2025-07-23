@@ -45,6 +45,14 @@
 
           {{ if eq $item.Type "talk" }}
           <div>
+            {{ with $item.Params.event }}
+            <span itemprop="location">{{ . }}</span>
+            {{ end }}
+            {{ with $item.Params.location }}
+            <span class="middot-divider"></span>
+            <span itemprop="location">{{ . }}</span>
+            {{ end }}
+            <span class="middot-divider"></span>
             <span itemprop="startDate">
               {{ $date := $item.Date }}
               {{ (time $date).Format site.Params.date_format }}
@@ -55,10 +63,6 @@
               {{ end }}
               {{ end }}
             </span>
-            {{ with $item.Params.location }}
-            <span class="middot-divider"></span>
-            <span itemprop="location">{{ . }}</span>
-            {{ end }}
           </div>
           {{ end }}
 

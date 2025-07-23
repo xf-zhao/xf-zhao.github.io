@@ -3,7 +3,7 @@
 widget = "slider"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 10  # Order that this section will appear.
+weight = 1  # Order that this section will appear.
 
 # Slide interval.
 # Use `false` to disable animation or enter a time in ms, e.g. `5000` (5s).
@@ -17,7 +17,7 @@ height = ""
 # Duplicate an `[[item]]` block to add more slides.
 [[item]]
   title = "On the Job Market!"
-  content = "I am finishing my Ph.D., seeking postdoc / research roles in Embodied AI & LLM.:smile:"
+  content = "I am finishing my Ph.D., seeking postdoc / research roles in Agentic / Embodied AI & LLM.:smile:"
   align = "center"  # Choose `center`, `left`, or `right`.
 
   # Overlay a color or image (optional).
@@ -29,9 +29,10 @@ height = ""
   # Call to action button (optional).
   #   Activate the button by specifying a URL and button label below.
   #   Deactivate by commenting out parameters, prefixing lines with `#`.
-  # cta_label = ""
-  # cta_url = "https://sourcethemes.com/academic/"
-  # cta_icon_pack = "fas"
+  cta_label = "Download Resume"
+  cta_url = "./files/cv.pdf"
+  cta_icon_pack = "fas"
+  cta_icon = "download"
   # cta_icon = "graduation-cap"
 
 # [[item]]

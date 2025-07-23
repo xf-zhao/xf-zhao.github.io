@@ -6,9 +6,9 @@ avatar_image: "xufeng.png"
 authors:
 - admin
 # resume download button
-btn:
-- url : "http://localhost:1313/academia/site/files/cv.pdf"
-  label : "View Resume"
+# btn:
+# - url : "./files/cv.pdf"
+#   label : "View Resume"
 
 # Is this the primary user of the site?
 superuser: true
