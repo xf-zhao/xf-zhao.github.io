@@ -1,0 +1,99 @@
+{{ $item := .item }}
+{{ $widget := .widget }}
+
+{{ $do_link := true }}
+{{ if $item.Params.external_link | or $item.Content }}
+  {{ $do_link = true }}
+{{ else }}
+  {{ $do_link = false }}
+{{ end }}
+
+{{ $link := .link }}
+{{ $target := .target }}
+
+{{ $order := "" }}
+{{ if and ($widget.Params.design.flip_alt_rows | default true) (not (modBool .index 2)) }}
+  {{ $order = "order-md-2" }}
+{{ end }}
+
+{{ $js_tag_classes := delimit (apply (apply $item.Params.tags "replace" "." " " "-") "printf" "js-id-%s" ".") " " }}
+
+
+<div class="col-lg-12 project-item isotope-item {{ $js_tag_classes | safeHTMLAttr }}" itemscope itemtype="http://schema.org/CreativeWork">
+  <div class="row align-items-center">
+    
+    <!-- Image: smaller column -->
+    <div class="col-12 col-md-3 order-first {{$order}}">
+      {{ $resource := ($item.Resources.ByType "image").GetMatch "*featured*" }}
+      {{ with $resource }}
+      {{ $image := .Resize "300x" }}  <!-- Adjust size as needed -->
+      {{if $do_link}}<a href="{{ $link }}" {{ $target | safeHTMLAttr }}>{{end}}
+        <img src="{{ $image.RelPermalink }}" itemprop="image" alt="" style="max-width: 100%; height: auto;">
+      {{if $do_link}}</a>{{end}}
+      {{end}}
+    </div>
+
+    <!-- Text: fills rest -->
+    <div class="col-12 col-md-9">
+      <h3 class="article-title mb-0 mt-0" style="font-size: 1rem;" itemprop="name">
+        {{- if $do_link}}<a href="{{ $link }}" {{ $target | safeHTMLAttr }} itemprop="url">{{end -}}
+        {{ $item.Title | markdownify | emojify }}
+        {{- if $do_link}}</a>{{end -}}
+      </h3>
+
+
+      {{ with $item.Params.journal }}
+  <div style="font-size: 0.8em; line-height: 2;">
+    {{ range . }}
+      {{ $styled := replaceRE `\(oral\)` `<strong style="color:red;">(oral)</strong>` . }}
+      <span style="display: inline-block; background-color: #f0f0f0; color: #666; padding: 2px 6px; margin: 2px 4px 2px 0; border-radius: 4px; font-style: italic;">
+        {{ $styled | safeHTML }}
+      </span>
+    {{ end }}
+  </div>
+{{ end }}
+
+{{ $baseAuthorPath := "/academia/site/authors" }}
+{{ if $item.Params.authors }}
+  {{ $authorLen := len $item.Params.authors }}
+  {{ if gt $authorLen 0 }}
+    <div style="font-size: 0.8em;">
+      {{ range $index, $author := $item.Params.authors }}
+        {{ $authorURL := printf "%s/%s" $baseAuthorPath (urlize $author) }}
+        {{ $hasStar := (hasSuffix $author "*") }}
+        {{ $cleanName := replaceRE "\\*$" "" $author }}
+
+        {{ if or (eq $cleanName "Xufeng Zhao") (eq $author "Xufeng Zhao*") }}
+          <a href="{{ $authorURL }}">
+            <u>{{ $cleanName }}</u>{{ if $hasStar }}*{{ end }}
+          </a>
+        {{ else }}
+          <a href="{{ $authorURL }}">{{ $author }}</a>
+        {{ end }}
+
+        {{ if lt (add $index 1) $authorLen }}, {{ end }}
+      {{ end }}
+    </div>
+  {{ end }}
+{{ end }}
+
+
+      {{ $summary := "" }}
+      {{ if $item.Params.summary }}
+        {{ $summary = $item.Params.summary }}
+      {{ else if $item.Truncated }}
+        {{ $summary = $item.Summary }}
+      {{ end }}
+      {{ with $summary }}
+      <div class="article-style" itemprop="articleBody" style="font-size: 0.8em;">
+        {{ . | markdownify | emojify }}
+      </div>
+      {{ end }}
+
+      <div class="btn-links">
+        {{ partial "page_links" (dict "page" $item "is_list" 0) }}
+      </div>
+    </div>
+
+  </div>
+</div>
