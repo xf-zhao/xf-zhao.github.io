@@ -14,7 +14,7 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD student in Computer Science
+role: PhD student in Artificial Intelligence
 
 # Organizations/Affiliations
 organizations:
