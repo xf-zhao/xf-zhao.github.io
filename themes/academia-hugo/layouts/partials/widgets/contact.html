@@ -52,8 +52,11 @@
   <div class="row align-items-start">
   <!-- Left: Image (2/3 width) -->
   <div class="col-md-7 col-lg-7 mb-3">
-    <img src="https://zaiyouji.com/wp-content/uploads/2023/10/%E6%B1%89%E5%A0%A1.jpg" itemprop="image"
+
+    {{ with $page.Params.mybackground }}
+    <img src="{{ printf "img/%s" . | relURL }}" itemprop="image"
          style="height: 15em; width: 100%; object-fit: cover;">
+    {{ end }}
   </div>
 
   <!-- Right: Contact Info (1/3 width) -->

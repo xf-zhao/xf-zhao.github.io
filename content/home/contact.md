@@ -6,7 +6,7 @@ active = true  # Activate this widget? true/false
 weight = 70  # Order that this section will appear.
 
 title = "Contact"
-mybackground = "paddle-800.jpeg"
+mybackground = "Hamburg-view.jpg"
 subtitle = "Connect with me"
 
 # Automatically link email and phone?
