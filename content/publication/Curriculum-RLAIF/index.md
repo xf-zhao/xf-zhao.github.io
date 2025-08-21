@@ -9,7 +9,7 @@ authors:
 - Stefan Wermter
 - Di Wang
 journal: 
-- preprint 2025 (under review)
+- preprint 
 summary: We propose Curriculum-RLAIF, a data-centric framework that improves reward model generalizability by training on preference pairs of increasing difficulty. This curriculum-based approach addresses data noise, distribution shift, and model-capacity mismatch. Experiments show that Curriculum-RLAIF significantly boosts policy alignment performance without extra inference cost, outperforming non-curriculum and alternative strategies.
 tags:
 - RL
@@ -17,7 +17,7 @@ tags:
 date: "2025-06-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: "https://arxiv.org/abs/2505.20075"
 
 image:
   caption: 

@@ -16,7 +16,7 @@ tags:
 date: "2024-06-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: "Large Language Models for Orchestrating Bimanual Robots"
 
 image:
   caption: 

@@ -15,7 +15,7 @@ tags:
 date: "2023-06-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: "https://ir-rl.github.io/"
 
 image:
   caption: 

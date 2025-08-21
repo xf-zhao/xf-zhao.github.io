@@ -16,7 +16,7 @@ tags:
 date: "2024-10-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: "https://aclanthology.org/2024.lrec-main.543/"
 
 image:
   caption: 

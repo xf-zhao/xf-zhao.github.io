@@ -14,7 +14,7 @@ tags:
 date: "2021-10-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: "https://ieeexplore.ieee.org/document/9437695"
 
 image:
   caption: 

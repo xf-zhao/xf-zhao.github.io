@@ -17,7 +17,7 @@ tags:
 date: "2024-06-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: "https://dl.acm.org/doi/10.1007/978-3-031-72341-4_18"
 
 image:
   caption: 

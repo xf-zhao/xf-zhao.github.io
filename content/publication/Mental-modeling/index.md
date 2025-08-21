@@ -18,7 +18,7 @@ tags:
 date: "2025-06-27T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: "https://openreview.net/forum?id=JN7iNWaPTe"
 
 image:
   caption: 

@@ -13,7 +13,7 @@ tags:
 date: "2025-03-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: "https://arxiv.org/abs/2503.17309"
 
 image:
   caption: 
