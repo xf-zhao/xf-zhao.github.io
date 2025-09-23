@@ -1,8 +1,8 @@
 ---
 title: "PersRM-R1: Enhance Personalized Reward Modeling with Reinforcement Learning"
 authors: 
-- Mengdi Li
-- Guanqiao Chen
+- Mengdi Li*
+- Guanqiao Chen*
 - Xufeng Zhao
 - Haochen Wen
 - Shu Yang
