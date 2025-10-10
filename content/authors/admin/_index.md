@@ -81,7 +81,7 @@ user_groups:
 - Visitors
 ---
 
-👋 Hi! I I defended my PhD on 08.10.2025❗ 
+👋 Hi! I I defended my PhD on 08.10.2025‼️ 
 Committee: [Prof. Stefan Wermter](https://www.inf.uni-hamburg.de/en/inst/ab/wtm/people/wermter.html) (supervisor), [Prof. Jianwei Zhang](https://tams.informatik.uni-hamburg.de/people/zhang/) (deputy), and [Prof. Sören Laue](https://www.inf.uni-hamburg.de/en/inst/ab/ml/people/laue.html) (chair). 
 
 I study embodied agents that explore, learn, and adapt autonomously, unifying reinforcement learning, world modeling, and large language models so agents can reason, acquire skills, and scale with minimal supervision.
