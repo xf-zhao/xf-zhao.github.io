@@ -1,7 +1,7 @@
 ---
 title: Joint Design of Protein Surface and Backbone Using a Diffusion Bridge Model
 authors: 
-- Guanlue Li
+- Guanlve Li
 - Xufeng Zhao
 - Fang Wu
 - Sören Laue

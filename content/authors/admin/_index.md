@@ -1,7 +1,7 @@
 ---
 # Display name
 name: Xufeng Zhao
-avatar_image: "xufeng.png"
+avatar_image: "xufeng.jpg"
 # Username (this should match the folder name)
 authors:
 - admin
@@ -14,7 +14,7 @@ authors:
 superuser: true
 
 # Role/position
-role: PhD student in Artificial Intelligence
+role: PhD in Artificial Intelligence
 
 # Organizations/Affiliations
 organizations:
@@ -37,7 +37,7 @@ education:
   courses:
   - course: Ph.D. in Computer Science
     institution: University of Hamburg
-    year: present
+    year: 2025
   - course: M.Sc. in Signal Processing
     institution: University of Chinese Academy of Sciences
     year: 2018
@@ -81,4 +81,8 @@ user_groups:
 - Visitors
 ---
 
-👋 Hi, I’m a PhD candidate supervised by [Prof. Stefan Wermter](https://www.inf.uni-hamburg.de/en/inst/ab/wtm/people/wermter.html). My research focuses on intelligent embodied agents that explore and adapt autonomously through interaction with the environment. I’m particularly interested in combining reinforcement learning, world modeling, and large language models to enable agents to reason, acquire skills, and scale their capabilities with minimal supervision. My long-term goal is to build reliable and generalizable systems that can assist and collaborate with humans in complex real-world settings.
+👋 Hi! I I defended my PhD on 08.10.2025❗ 
+Committee: [Prof. Stefan Wermter](https://www.inf.uni-hamburg.de/en/inst/ab/wtm/people/wermter.html) (supervisor), [Prof. Jianwei Zhang](https://tams.informatik.uni-hamburg.de/people/zhang/) (deputy), and [Prof. Sören Laue](https://www.inf.uni-hamburg.de/en/inst/ab/ml/people/laue.html) (chair). 
+
+I study embodied agents that explore, learn, and adapt autonomously, unifying reinforcement learning, world modeling, and large language models so agents can reason, acquire skills, and scale with minimal supervision.
+My long-term goal is to deliver robust, trustworthy systems that assist people in complex real-world settings.
