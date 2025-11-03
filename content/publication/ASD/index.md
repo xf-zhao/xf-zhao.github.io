@@ -14,7 +14,7 @@ tags:
 - Robotics
 - LLMs
 - VLMs
-date: "2024-10-27T00:00:00Z"
+date: "2025-11-01T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
 external_link: "https://arxiv.org/abs/2405.15019"
