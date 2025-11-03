@@ -5,8 +5,9 @@ authors:
 - Cornelius Weber
 - Stefan Wermter
 journal: 
-- CoRL 2024 Workshop 
+- Robotics and Autonomous Systems <strong style="color:red;">(JCR Q1)</strong>
 - ICRA@40
+- CoRL 2024 Workshop 
 summary: We propose an LLM-driven framework that enables **robots to autonomously discover useful skills from scratch**. By generating tasks, rewards, and success criteria, the LLM guides reinforcement learning, while a vision-language model verifies outcomes. This allows the robot to build a meaningful skill library without relying on predefined primitives.
 tags:
 - RL
